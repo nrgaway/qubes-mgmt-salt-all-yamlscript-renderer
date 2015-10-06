@@ -5,9 +5,9 @@
 # See default.sls for inline documentation
 $defaults: True
 $test_file:
-  - salt://tests_yamlscript/tests.tester
+  - salt://yamlscript/tests.tester
 
-$import: tests_yamlscript.default
+$import: yamlscript.default
 
 # Tests to test token replacement recursion
 $python: |
@@ -76,7 +76,7 @@ user2:
 # ==============================================================================
 #!yamlscript
 $test_file:
-  - salt://tests_yamlscript/tests.ems_service
+  - salt://yamlscript/tests.ems_service
 
 # EMS_SERVICE Senerio 1
 $for ems_service in pillar('EMS_SERVICE_LIST', {}):
