@@ -1,0 +1,10 @@
+#
+# qubesctl --out=yaml state.show_sls yamlscript test
+#
+# qubesctl state.highstate test -l debug
+#
+
+test:
+  '*':
+    - yamlscript
+    #- yamlscript.default
