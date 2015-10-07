@@ -17,7 +17,7 @@
 %define salt_pillar_dir /srv/pillar
 %define salt_formula_dir /srv/formulas
 
-Name:      qubes-mgmt-salt-base-yamlscript-renderer
+Name:      qubes-mgmt-salt-all-yamlscript-renderer
 Version:   %{version}
 Release:   %{rel}%{?dist}
 Summary:   Combines python and YAML in a nice human readable format
@@ -26,7 +26,7 @@ URL:	   http://www.qubes-os.org/
 
 Group:     System administration tools
 BuildArch: noarch
-Requires:  qubes-mgmt-salt-config
+Requires:  qubes-mgmt-salt-base
 
 %define _builddir %(pwd)
 
