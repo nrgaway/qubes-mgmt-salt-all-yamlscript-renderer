@@ -1,0 +1,2 @@
+srv/pillar/test/yamlscript/users.sls
+srv/pillar/test/yamlscript/groups.sls

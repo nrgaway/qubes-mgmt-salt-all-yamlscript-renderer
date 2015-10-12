@@ -1,5 +1,5 @@
 Format: http://www.debian.org/doc/packaging-manuals/copyright-format/1.0/
-Upstream-Name: qubes-mgmt-salt-base-yamlscript-renderer
+Upstream-Name: qubes-mgmt-salt-all-yamlscript-renderer
 Source: <http://www.qubes-os.org/>
 
 Files: *

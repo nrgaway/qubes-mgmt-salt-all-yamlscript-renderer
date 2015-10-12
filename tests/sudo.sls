@@ -1,10 +1,10 @@
 #!yamlscript
-$test_file: salt://tests_yamlscript/tests.sudo
-$test_file: salt://tests_yamlscript/tests.vim
+$test_file: salt://yamlscript/tests.sudo
+$test_file: salt://yamlscript/tests.vim
 
-#$include: tests_vim.absent
+#$include: yamlscript.vim.absent
 include:
-  - tests_vim.absent
+  - yamlscript.vim.absent
 
 sudo:
   group:

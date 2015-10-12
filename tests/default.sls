@@ -84,14 +84,14 @@ $defaults : True
 # Just run `salt-call --local --out=yaml state.show_sls users`
 # and check the logs
 $test_file:
-  - salt://tests_yamlscript/tests.mel
-  - salt://tests_yamlscript/tests.bobby
-  - salt://tests_yamlscript/tests.docker
+  - salt://yamlscript/tests.mel
+  - salt://yamlscript/tests.bobby
+  - salt://yamlscript/tests.docker
 
 # Defualt user group to use if you don't add them in pillar
 $python: default_users_group = 'users'
 
-$include: tests_yamlscript.sudo
+$include: yamlscript.sudo
 
 # See notes above
 $pillars:
