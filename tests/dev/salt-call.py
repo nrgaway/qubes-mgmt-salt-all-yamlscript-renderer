@@ -19,6 +19,11 @@ import shutil
 import subprocess
 import logging
 
+try:
+    import qubes.mgmt.patches
+except ImportError:
+    pass
+
 if BIND is not None:
     import salt.config
     import salt.fileclient
