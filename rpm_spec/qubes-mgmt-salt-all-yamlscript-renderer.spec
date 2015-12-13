@@ -53,6 +53,7 @@ qubesctl saltutil.sync_all refresh=true -l quiet --out quiet > /dev/null || true
 
 %files
 %defattr(-,root,root)
+%doc LICENSE README.rst README.tests
 %attr(750, root, root) %dir /srv/salt/_renderers
 /srv/salt/_renderers/pyobjects.py*
 /srv/salt/_renderers/yamlscript.py*
